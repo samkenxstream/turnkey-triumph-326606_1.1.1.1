@@ -7,7 +7,7 @@ build:
 	$Q yarn run build
 
 deploy: build
-	$Q aws s3 --endpoint-url https://s3.cfdata.org/ sync --acl public-read build s3://"bucket-here"
+	$Q aws s3 --endpoint-url https://s3.cfdata.org/ sync --acl public-read build s3://every1dns-landing
 
 # clean up generated files, to allow regeneration
 clean:
