@@ -8,15 +8,15 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 1500vh 2em 45vh;
+  padding: 25vh 2em 45vh;
   width: 100%;
 }
 
 .EasterEggSection--content {
   width: 40vw;
   max-width: 20em;
+  z-index: 1;
 }
-
 
 @media (max-width: 768px) {
   .EasterEggSection--column {
